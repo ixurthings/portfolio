@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+         <link rel="stylesheet" href="portstyle.css">
+ 
+         <!-- =====BOX ICONS===== -->
+         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+ 
+         <title>Patrick's Portfolio Website </title>
+     </head>
+     <body>
+         <!--===== HEADER =====-->
+         <header class="l-header">
+             <nav class="nav bd-grid">
+                
+                 <div class="nav__menu" id="nav-menu">
+                     <ul class="nav__list">
+                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+
+                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                     </ul>
+                 </div>
+ 
+                 <div class="nav__toggle" id="nav-toggle">
+                     <i class='bx bx-menu'></i>
+                 </div>
+
+                 <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <div class="nav__theme-toggle" id="theme-toggle">
+                    <i class='bx bx-moon'></i> <!-- Icon for dark mode -->
+                </div>
+             </nav>
+         </header>
+ 
+         <main class="l-main">
+             <!--===== HOME =====-->
+             <section class="home bd-grid" id="home">
+                 <div class="home__data">
+                     <h1 class="home__title">Hi,<br>My name is <span class="home__title-color">Patrick A. Galang</span><br>
+                    It's a pleasure to see you here.
+                    </h1>
+                 </div>
+             </section>
+ 
+             <!--===== ABOUT =====-->
+             <section class="about section " id="about">
+                 <h2 class="section-title">About</h2>
+ 
+                 <div class="about__container bd-grid">
+                     <div class="about__img">
+                         <img src="profile-pics\Me.jpg"alt="">
+                     </div>
+ 
+                     <div>
+                         <h2 class="about__subtitle">I am Patrick</h2>
+                         <p class="about__text">
+                            My hobbies are playing, watching, singing, and travelling. Playing brings freedom, excitement, and a chance to connect with my friends. 
+                            Watching expands your horizons through stories and experiences that inspire and comfort you. 
+                            Singing is my emotional outlet, where I express yourself through melodies and feel truly at peace.
+                            Travelling with my friends is a fun experience enjoying the view together and talking about our lives. 
+                            Together, these activities celebrate my vibrant, expressive personality and reminds me to live life to the fullest.
+                         </div>                                   
+                 </div>
+             </section>
+ 
+             <!--===== SKILLS =====-->
+             <section class="skills section" id="skills">
+                 <h2 class="section-title">Skills</h2>
+ 
+                 <div class="skills__container bd-grid">          
+                     <div>
+                         <h2 class="skills__subtitle">Coding Skills</h2>
+                         <p class="skills__text">These are my current coding skills as I learn through different courses in HTML, CSS, and JAVASCRIPT</p>
+                         <div class="skills__data">
+                             <div class="skills__names">
+                                 <i class='bx bxl-html5 skills__icon'></i>
+                                 <span class="skills__name">HTML</span>
+                             </div>
+                             <div class="skills__bar skills__html">
+ 
+                             </div>
+                             <div>
+                                 <span class="skills__percentage">50%</span>
+                             </div>
+                         </div>
+                         <div class="skills__data">
+                             <div class="skills__names">
+                                 <i class='bx bxl-css3 skills__icon'></i>
+                                 <span class="skills__name">CSS</span>
+                             </div>
+                             <div class="skills__bar skills__css">
+ 
+                             </div>
+                             <div>
+                                 <span class="skills__percentage">45%</span>
+                             </div>
+                         </div>
+                         <div class="skills__data">
+                             <div class="skills__names">
+                                 <i class='bx bxl-javascript skills__icon' ></i>
+                                 <span class="skills__name">JAVASCRIPT</span>
+                             </div>
+                             <div class="skills__bar skills__js">
+                             </div>
+                             <div>
+                                 <span class="skills__percentage">10%</span>
+                             </div>
+                             
+                         </div>
+                        </div>
+                        <div class="skills-image-container">
+                            <img src="skills-favs\skills.jpg" alt="Skills" class="skills-image" id="skillsImage">
+                        </div>
+                     </div>
+                 </div>
+             </section>
+ 
+             <!--===== DISPLAY =====-->
+             <section class="display section" id="display">
+                 <h2 class="section-title">Favorites</h2>
+ 
+                 <div class="display__container bd-grid">
+                    <a href="" class="display__img image-container">
+                        <img src="skills-favs\mlbb.jpg" alt="Mobile Legends" class="responsive-img">
+                        <span class="image-caption">Play Games</span>
+                    </a>
+                    <a href="" class="display__img image-container">
+                        <img src="skills-favs\netflix.jpg" alt="Netflix" class="responsive-img">
+                        <span class="image-caption">Watch Movies</span>
+                    </a>
+                    <a href="" class="display__img image-container">
+                        <img src="skills-favs\spotify.jpg" alt="Spotify" class="responsive-img">
+                        <span class="image-caption">Listen to Music</span>
+                    </a>
+                    </a>
+                 </div>
+             </section>
+ 
+             <!--===== CONTACT =====-->
+             <section class="contact section" id="contact">
+                 <h2 class="section-title">Contact</h2>
+ 
+                 <div class="contact__container bd-grid">
+                     <form action="" class="contact__form">
+                         <input type="text" placeholder="Name" class="contact__input">
+                         <input type="mail" placeholder="Email" class="contact__input">
+                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                         <input type="button" value="Send Email" class="contact__button button">
+                     </form>
+                 </div>
+             </section>
+         </main>
+ 
+         <!--===== FOOTER =====-->
+         <footer class="footer">
+             <p class="footer__title">Patrick Galang</p>
+             <div class="footer__social">
+                 <a href="https://www.facebook.com/Shaco120" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                 <a href="https://www.instagram.com/whypatrick.g/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                 <a href="https://x.com/whyixurrr" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+             </div>
+         </footer>
+ 
+ 
+         <!--===== SCROLL REVEAL =====-->
+         <script src="https://unpkg.com/scrollreveal"></script>
+ 
+         <!--===== MAIN JS =====-->
+         <script src="portjs.js"></script>
+     </body>
+ </html>
